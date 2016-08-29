@@ -1,0 +1,18 @@
+{
+  "name": "template-literalizer",
+  "main": "./lib/template-literalizer",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "template-literalizer:convert"
+  },
+  "repository": "https://github.com/atom/template-literalizer",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}

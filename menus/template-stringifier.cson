@@ -1,0 +1,22 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Convert to template literal'
+      'command': 'template-literalizer:convert'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'Convert to template literal'
+      'submenu': [
+        {
+          'label': 'Toggle'
+          'command': 'template-literalizer:convert'
+        }
+      ]
+    ]
+  }
+]
