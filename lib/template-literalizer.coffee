@@ -11,7 +11,10 @@ module.exports = TemplateLiteralizer =
     @subscriptions.dispose()
 
   convert: ->
+    # console.log("Hello!")
     if editor = atom.workspace.getActiveTextEditor()
       selection = editor.getSelectedText()
+      converter = (selectionToConvert) ->
+        console.log selectionToConvert
+      converter selection
       console.log selection
-      editor.insertText('\`I\'m James\`')
